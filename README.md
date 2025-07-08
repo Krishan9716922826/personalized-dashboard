@@ -33,6 +33,31 @@ npm install
 # Start the dev server
 npm run dev
 
+```
+---
+
+## project structure
+src/
+├── app/              # Next.js App Router (Pages + Layouts)
+├── components/       # Shared and UI components
+├── features/         # Feature-specific slices and components (e.g., favorites, preferences)
+├── hooks/            # Custom React/Redux hooks
+├── services/         # RTK Query APIs (e.g., TMDB, NewsAPI)
+├── store/            # Redux store configuration and slices
+├── types/            # Global TypeScript types
+├── utils/            # Utility functions
+
+---
+
+## 🔄 User Flow
+
+1. **Landing Page**: View personalized dashboard with trending content.
+2. **Content Selection**: Choose categories for news and explore movie suggestions.
+3. **Favorites**: Add and reorder your favorite items using drag-and-drop.
+4. **Customization**: Toggle between dark/light themes and select your content preferences.
+5. **Responsive**: Enjoy a seamless experience on all devices.
+
+
 
 
 
