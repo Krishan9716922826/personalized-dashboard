@@ -37,15 +37,17 @@ npm run dev
 ---
 
 ## project structure
-src/
-├── app/              # Next.js App Router (Pages + Layouts)
-├── components/       # Shared and UI components
-├── features/         # Feature-specific slices and components (e.g., favorites, preferences)
-├── hooks/            # Custom React/Redux hooks
-├── services/         # RTK Query APIs (e.g., TMDB, NewsAPI)
-├── store/            # Redux store configuration and slices
-├── types/            # Global TypeScript types
-├── utils/            # Utility functions
+**src/**
+**├── app/**             # Next.js App Router (Pages + Layouts)
+**├── components/**      # Shared and UI components
+**├── features/**         # Feature-specific slices and components (e.g., favorites, preferences)
+**├── hooks/**            # Custom React/Redux hooks
+**├── hooks/**            # Custom React/Redux hooks
+**├── hooks/**            # Custom React/Redux hooks
+**├── services/**         # RTK Query APIs (e.g., TMDB, NewsAPI)
+**├── store/**            # Redux store configuration and slices
+**├── types/**            # Global TypeScript types
+**├── utils/**            # Utility functions
 
 ---
 
