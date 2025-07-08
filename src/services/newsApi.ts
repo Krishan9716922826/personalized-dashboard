@@ -10,7 +10,15 @@ export const newsApi = createApi({
       query: (category: string) =>
         `top-headlines?country=us&category=${category}&apiKey=${NEWS_API_KEY}`,
     }),
+    getSearchResults: builder.query({
+      query: (q: string) => `everything?q=${q}&apiKey=${NEWS_API_KEY}`,
+    }),
   }),
 });
 
-export const { useGetTopHeadlinesQuery } = newsApi;
+
+export const {
+  useGetTopHeadlinesQuery,
+  useLazyGetSearchResultsQuery: useLazySearchNewsQuery,
+} = newsApi;
+

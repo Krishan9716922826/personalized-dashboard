@@ -1,0 +1,16 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "module": "commonjs",               
+    "noEmit": true,
+    "esModuleInterop": true,
+    "allowJs": true,
+    "outDir": "./dist",
+    "types": ["jest", "node"],          
+    "baseUrl": "./",
+    "paths": {
+      "@/*": ["src/*"]                  
+    }
+  },
+  "include": ["**/*.test.ts", "**/*.test.tsx", "src"]
+}
